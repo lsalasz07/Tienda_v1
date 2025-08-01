@@ -29,4 +29,9 @@ public class Producto implements Serializable {
 
     public Producto() {
     }
+    
+    public Producto (String producto, boolean activo) {
+        this.descripcion = producto;
+        this.activo = activo;
+    }
 }
